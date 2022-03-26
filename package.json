@@ -11,17 +11,26 @@
     "url": "git+https://github.com/code-warrior/assignment-2--intro-to-internet-programming--cs-275--fall-2021.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "kady farrell",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/code-warrior/assignment-2--intro-to-internet-programming--cs-275--fall-2021/issues"
   },
   "homepage": "https://github.com/code-warrior/assignment-2--intro-to-internet-programming--cs-275--fall-2021#readme",
   "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "gulp-babel": "^7.0.1",
     "gulp-html": "^3.4.0",
-    "gulp-htmlmin": "^5.0.1"
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-stylelint": "^13.0.0",
+    "stylelint": "^14.6.1"
   },
   "dependencies": {
-    "gulp": "^4.0.2"
+    "browser-sync": "^2.27.9",
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0"
   }
 }
