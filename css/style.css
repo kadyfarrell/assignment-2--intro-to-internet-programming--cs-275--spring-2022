@@ -1,0 +1,84 @@
+body {
+  background-color: #F5D6E7;
+  }
+h1 {
+  font-family: 'Domine', serif;
+  font-weight: 600;
+  font-style: bold;
+  font-variant: small-caps;
+  padding: 10px;
+  font-size: 100px;
+  line-height: 1em;
+  text-align: center;
+}
+h2 { 
+  font-family: 'Domine', serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 70px;
+  text-align: center;
+}
+h3 {
+  font-family: 'Domine', serif;
+  font-variant: small-caps;
+  font-style: bold;
+  font-size: 40px;
+  text-align: center;
+}
+h4 {
+  font-family: 'Domine', serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 70px;
+  text-align: center;
+}
+p {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+  .button {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+  font-variant: small-caps;
+  font-style: bold;
+  font-size: 30px;
+  background-color: #BAC6F5;
+  border: 2px solid black;
+  color: black;
+  padding: 15px 10px;
+  text-align: center;
+  width:50%;
+  margin-left:25%;
+  margin-right:25%;
+  margin-bottom: 20px;
+}
+  .item {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    font-variant: small-caps;
+  }
+  input {
+  text-align: center;
+  background-color: #BAC6F5;
+  width: 25%;
+  padding: 12px 20px;
+  border: 2px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/*disable arrows firefox*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/*disable arrows firefox*/
+input[type=number] {
+  -moz-appearance: textfield;
+}
