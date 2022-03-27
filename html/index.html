@@ -3,12 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>re</title>
+  <title>Rice Recipes</title>
   <link rel="stylesheet" href="../css/style.css" ><!-- DO NOT ALTER THIS LINE -->
+  <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;600&family=Noto+Sans:ital@0;1&display=swap" rel="stylesheet"> 
 </head>
 <body>
-  <h1> test </h1>
-  <p>  test </p> 
+
+  <h1> rice recipes </h1>
+  <h2> Learn how to cook two different kinds of rice. </h2>
+  <h3> what kind of rice would you like to cook? </h3> 
+  <p id='recipeOne' style='display: none'> HOW TO COOK WHITE RICE: <br> Combine 1 cup of rice with 2 cups of water and 1 Tbsp olive oil. Bring to a boil, then reduce heat to the lowest setting. Cook for about 18 minutes.</p>     
+  <button type='button' class="button" onclick="whiteRice()">white rice</button>
+  <p id='recipeTwo' style='display: none'> HOW TOO COOK SPROUTED CALIFORNIA RICE: <br> For slightly al dente rice: <br> Combine 1 1/4 cups of rice with 2 cups of water or broth and 1 Tbsp olive oil. Bring to a boil and stir once to mix. Reduce heat to low, cover with a tight-fitting lid and cook for 25 minutes. Remove from heat and let stand for 5 minutes. Fluff with a fork and serve. <br> For softer rice: <br> Increase liquid by 1/2 cup and cook time by 5 minutes.</p>  
+  <button type='button' class="button" onclick="caliRice()">sprouted california rice</button>
+  <h4> Calculate how much water needed per cup(s) of rice here: </h4>
+  <div class="container">
+    <div class="item">
+      <label for="rice"> type in how many cups of rice you would like to make: </label>
+      <br>
+      <input id="rice" type="number" />
+      <div class="item">
+      <label for="result"> cups of water for white rice and sprouted california rice: </label>
+      <span id="result"></span>
+      <br>
+      <label for="softResult"> cups of water for soft sprouted california rice: </label>
+      <span id="softResult"></span>
+    </div>
+  </div>
+</div>
+
   <script src="../js/app.js"></script><!-- DO NOT ALTER THIS LINE -->
 </body>
 </html>
